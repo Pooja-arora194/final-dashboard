@@ -3,14 +3,16 @@ import { makeStyles } from '@material-ui/core/styles';
 export const sidebarstyle = makeStyles(theme => ({
     drawer: {   
         [theme.breakpoints.up('sm')]:{
-            width: '200px'
+            width: '170px',
+           
         }
+        
      
     },
     drawerPaper: {
         color:'white !important',
         backgroundColor: '#2a3757 !important',
-        width: '200px'
+        width: '220px'
 
     },
     logodiv: {
@@ -24,5 +26,8 @@ export const sidebarstyle = makeStyles(theme => ({
     },
     iconstyle: {
         color:'white !important',
+    },
+    subheading: {
+        padding : '12px'
     }
 }))

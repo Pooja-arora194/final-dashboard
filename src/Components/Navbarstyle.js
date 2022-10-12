@@ -1,13 +1,15 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import { Block } from '@mui/icons-material';
 
 
 export const Navbartstyle = makeStyles(theme => ({
   navbarstyle: {
-    // marginLeft: '180px',
+     marginLeft: '220px',
     backgroundColor: '#fafafa !important',
-    color: '#fafafa !important'
-    
+    color: 'black !important',
+  
+  
   },
   avatarstyle: {
     backgroundColor: '#2a3757 !important'
@@ -21,6 +23,16 @@ export const Navbartstyle = makeStyles(theme => ({
 
   
   
+  },
+  navbartitle: {
+   
+    [theme.breakpoints.up('xs')]:{
+      display: 'hidden'
+    },
+
+  
+  
   }
+  
     
 }));

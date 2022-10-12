@@ -1,28 +1,34 @@
 import { Hidden } from '@material-ui/core';
 import { Drawer } from '@mui/material';
-import Sidebardesign from './Sidebardesign';
+import Sidebardata from './Sidebardata';
 import React from 'react';
 import { sidebarstyle } from './sidebarstyle';
 
 
-const Sidebar = ({isMobile, funcsetmobile}) => {
+const Sidebar = ({isMobile, funcsetmobile, heading}) => {
+  console.log("in sidebar",heading)
 
 const classes = sidebarstyle();
   return (
     <div>
       <nav className={classes.drawer}>
-        <Hidden xsDown implementation='Sidebardesigncss'> 
+           
+        <Hidden xsDown implementation='sidebardesign'> 
         <Drawer variant='permanent' open anchor='left' classes={{paper: classes.drawerPaper}} >
-            <Sidebardesign />
-
+            <Sidebardata heading ={heading} />
+              
         </Drawer>
-        </Hidden>
+        </Hidden> 
 
         <Drawer variant='temporary' open ={isMobile} anchor='left' classes={{paper: classes.drawerPaper}} onClick={funcsetmobile} >
-           <Sidebardesign />
+           <Sidebardata  heading ={heading}/>
+        
 
         </Drawer>
       </nav>
+
+
+      
     </div>
   )
 }

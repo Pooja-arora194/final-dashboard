@@ -3,7 +3,8 @@ import Navbar from '../Components/Navbar';
 import Sidebar from '../Components/Sidebar';
 import { Layoutstyle } from './Layoutstyle';
 
-const Layout = ({children}) => {
+const Layout = (props) => {
+  console.log("layout",props, props.heading)
 
     const classes = Layoutstyle();
     const [isMobile, setIsMobile] = useState(false);
@@ -13,11 +14,11 @@ const Layout = ({children}) => {
   return (
     <div className={classes.root}>
        
-      <Sidebar isMobile={isMobile}  funcsetmobile ={funcsetmobile}/>
-          <Navbar funcsetmobile ={funcsetmobile} />
+      <Sidebar isMobile={isMobile} heading ={props.heading} funcsetmobile ={funcsetmobile}/>
+          <Navbar funcsetmobile ={funcsetmobile} heading ={props.heading} />
         <main>
           <div className={classes.navbarWidth}>
-            {children}
+            {props.children}
           </div>
         </main>
     </div>

@@ -1,0 +1,208 @@
+.cardstyle 
+{
+    margin-left: 7%;
+    margin-top: 7%;
+   
+}
+.chartstyle 
+{
+    margin-left: 4%;
+    margin-top: 5%;
+   
+}
+
+.tablestyle{
+    
+    margin-left: 5%;
+    margin-top: 5%;
+  
+    
+}
+.formstyle{
+   
+    margin-left: 6%;
+}
+.listing{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+.replenishchart{
+  
+    margin-left: 5%;
+}
+.replenishsoonchart{
+    margin-top:9%;
+    margin-left: 5%;
+}
+.replenishsoonlist{
+    margin-top:5%;
+    margin-left: 5%;
+}
+.replenishlist{
+ 
+    margin-left: 5%;
+}
+.tableborder{
+    
+    background-color: #e7eced;
+
+}
+.allskutable{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.connectedstyle{
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.replenish_chart{
+        margin-top: 10%;
+        margin-left: 5%;
+}
+.subheading{
+    padding-left: 10%;
+    color:white !important;
+}
+
+.specialeventstyle{
+    margin-top: 15%;
+    margin-left: 7%;
+}
+.productstyle{
+    margin-top: 7% !important;
+    margin-left: 5% !important;
+ 
+}
+
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-12 {
+    margin-top: 6%;
+}
+main {
+    width: 100%;
+  }
+  .makeStyles-navbarWidth-2 .table-box .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.specialeventstyle.css-18o1pxn-MuiPaper-root-MuiTableContainer-root {
+    margin: 200px auto;
+  }
+  .MuiGrid-root.productstyle.MuiGrid-container.MuiGrid-spacing-xs-3{
+  width: 85%;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    svg.recharts-surface {
+        width: 340px;
+        
+    }
+    .chartstyle{
+        width: 350px !important;
+        margin: 0 auto;
+       margin-top: -25%;
+      
+    }
+    .recharts-wrapper.chartstyle {
+      
+        height: 396px !important;
+    }
+
+    .tablestyle{
+        margin-left: 4% !important;
+        margin-top: 2%;
+       
+    }
+
+    .cardstyle{
+       
+        margin-top: 30%;
+        margin-left: 13%;
+      
+    }
+    .recharts-legend-wrapper{
+        width: 350px !important; 
+        margin: 0 auto;
+    }
+    .css-rqglhn-MuiTable-root {
+        margin: 0 auto;
+        width: 26% !important;
+    }
+    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.tablestyle.css-1u7k0ks-MuiPaper-root-MuiTableContainer-root {
+        width: 350px;
+        margin: 0 auto;
+    }
+ 
+    
+    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.listing.css-1dtsmeg-MuiPaper-root-MuiTableContainer-root {
+        width: 340px;
+    }
+
+    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.listing.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+        width: 300px;
+
+    }
+    table.MuiTable-root.css-28gbpl-MuiTable-root {
+        width: 300px;
+    }
+
+      .recharts-wrapper.replenishchart {
+        width: 300px !important;
+        margin: 0 auto;
+ 
+      }
+      .replenishlist{
+        width: 350px !important
+      }
+      .replenishsoonlist{
+        width: 350px !important
+      }
+      .recharts-wrapper.replenishsoonchart {
+        width: 300px !important;
+        margin: 0 auto;
+ 
+      }
+      .allskutable{
+        width: 350px !important;
+        margin: 0 auto;
+        margin-left: 6%;
+        margin-top: 24%;
+      }
+      .specialeventstyle{
+        width: 350px !important;
+        margin-top:25%;
+      }
+      .css-rqglhn-MuiTable-root {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+    .productstylechart {
+        width: 300px !important;
+        margin: 0 auto;
+       
+    }
+    
+      .MuiGrid-root.productstyle.MuiGrid-container.MuiGrid-spacing-xs-3 {
+        width: 310px;
+        
+    }
+    .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-4 {
+        padding: 12px 0px;
+    }
+    .formstyle{
+        margin-top: 7%;
+        margin-left: 0px;
+    }
+
+    .css-188j7pa-MuiPaper-root-MuiTableContainer-root {
+      
+        width: 336px !important;
+        height: 200px;
+        margin:
+         0 auto;
+      }
+      .connectedstyle{
+        margin: 0  auto;
+    }
+    
+}
+

@@ -1,0 +1,14 @@
+.css-2uchni {
+    
+    margin-left: auto;
+
+}
+@media only screen and (max-width: 767px) {
+    
+
+    .makeStyles-navbarstyle-24 {
+        color: black !important;
+        margin-left: 0px !important;
+        background-color: #fafafa !important;
+}
+}
