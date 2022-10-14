@@ -71,7 +71,7 @@
 }
 .productstyle{
     margin-top: 7% !important;
-    margin-left: 5% !important;
+    margin-left: 2% !important;
  
 }
 
@@ -85,7 +85,7 @@ main {
     margin: 200px auto;
   }
   .MuiGrid-root.productstyle.MuiGrid-container.MuiGrid-spacing-xs-3{
-  width: 85%;
+         width: 85%;
 }
 
 
@@ -93,7 +93,7 @@ main {
 
 @media only screen and (max-width: 767px) {
     svg.recharts-surface {
-        width: 340px;
+        width: 320px;
         
     }
     .chartstyle{
@@ -116,11 +116,10 @@ main {
     .cardstyle{
        
         margin-top: 30%;
-        margin-left: 13%;
       
     }
     .recharts-legend-wrapper{
-        width: 350px !important; 
+        width: 344px !important; 
         margin: 0 auto;
     }
     .css-rqglhn-MuiTable-root {
@@ -151,10 +150,10 @@ main {
  
       }
       .replenishlist{
-        width: 350px !important
+        width: 325px !important
       }
       .replenishsoonlist{
-        width: 350px !important
+        width: 325px !important
       }
       .recharts-wrapper.replenishsoonchart {
         width: 300px !important;
@@ -162,7 +161,7 @@ main {
  
       }
       .allskutable{
-        width: 350px !important;
+        width: 315px !important;
         margin: 0 auto;
         margin-left: 6%;
         margin-top: 24%;
@@ -203,6 +202,11 @@ main {
       .connectedstyle{
         margin: 0  auto;
     }
+    .formstyle{
+   
+        margin-top: 15%;
+    }
+   
     
 }
 

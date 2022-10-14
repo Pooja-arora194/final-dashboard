@@ -4,7 +4,7 @@ import Sidebar from '../Components/Sidebar';
 import { Layoutstyle } from './Layoutstyle';
 
 const Layout = (props) => {
-  console.log("layout",props, props.heading)
+  // console.log("layout",props, props.heading)
 
     const classes = Layoutstyle();
     const [isMobile, setIsMobile] = useState(false);

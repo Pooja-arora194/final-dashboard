@@ -42,7 +42,7 @@ const notificationdata = [
                 <Box
                     component="form"
                     sx={{
-                    '& .MuiTextField-root': { m: 1, width: '45ch' },
+                    '& .MuiTextField-root': { m: 1, width: '42ch' },
                     }}
                     noValidate
                     autoComplete="off"

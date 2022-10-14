@@ -141,7 +141,7 @@ export default class Product extends PureComponent {
                               <Typography gutterBottom variant="h5" component="div">
                                   Amount to Order
                               </Typography>
-                              <Typography variant="body2" color="text.secondary">
+                              <Typography variant="body2" >
                                   3 Units
                               </Typography>
                             </CardContent>

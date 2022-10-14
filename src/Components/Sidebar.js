@@ -6,14 +6,13 @@ import { sidebarstyle } from './sidebarstyle';
 
 
 const Sidebar = ({isMobile, funcsetmobile, heading}) => {
-  console.log("in sidebar",heading)
-
+  
 const classes = sidebarstyle();
   return (
     <div>
       <nav className={classes.drawer}>
            
-        <Hidden xsDown implementation='sidebardesign'> 
+        <Hidden xsDown implementation='sidebardata'> 
         <Drawer variant='permanent' open anchor='left' classes={{paper: classes.drawerPaper}} >
             <Sidebardata heading ={heading} />
               

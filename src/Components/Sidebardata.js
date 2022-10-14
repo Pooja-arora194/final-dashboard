@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import logo from '../images/logo.svg';
 const Sidebardata = ({heading}) => {
 
-    console.log("bigscreen", heading);
+//    console.log("bigscreen", heading);
 
     const classes = sidebarstyle();
     const navigate = useNavigate();
@@ -73,10 +73,10 @@ const Sidebardata = ({heading}) => {
   return (
     <div>
         <div className={classes.logodiv}>
-         
+       
             <Avatar alt='logo' variant='square' className={classes.logostyle} src={logo}>
-
             </Avatar>
+       
                    
         </div>
         {
